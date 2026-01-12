@@ -9,9 +9,12 @@
 
 a{
     text-decoration: none;
+    transition: all 0.5s ease-in-out; 
 }
 
 /* Header */
+
+
 
 header *{
     text-transform: capitalize;
@@ -57,12 +60,91 @@ header>div>#Bouton{
     padding: 10px;
     color: white;
     border-radius: 9999px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
     &:hover{
         background-color: white;
         color: #0F172A;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+/* Main */
+
+main{
+    max-width: 1152px;
+    margin: auto;
+}
+
+main>#Section1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main>#Section1>div{
+    margin: 50px auto;
+    max-width: 520px;
+}
+
+main>#Section1>div>h1{
+    max-width: max-content;
+    color: #4338CA;
+    font-size: 14px;
+    background-color: #E0E7FF;
+    padding: 8px 16px;
+    border-radius: 9999px;
+}
+
+main>#Section1>div>h2{
+    color: #0F172A;
+    font-size: 72px;
+    font-weight: 800;
+}
+
+main>#Section1>div>h2>span{
+    color: #4F46E5;
+}
+
+main>#Section1>div>p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #475569;
+    line-height: 34px;
+
+    margin-bottom: 40px;
+}
+
+main>#Section1>div>div>a{
+    padding: 16px 32px;
+    border-radius: 16px;
+}
+main>#Section1>div>div>a>img{
+    margin-right: 5px;
+}
+
+main>#Section1>div>div>#AppStore{
+    color: white;
+    background-color: #0F172A;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        transition: all 0.5s ease-in-out;
+        background-color: rgb(227, 227, 227);
+        color: #0F172A;
+    }
+}
+
+main>#Section1>div>div>#PlayStore{
+    border: #E2E8F0 2px solid;
+    color: #0F172A;
+    background-color : rgb(227, 227, 227);;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        transition: all 0.5s ease-in-out;
+        background-color: #0F172A;
+        color: white;
     }
 }
 
