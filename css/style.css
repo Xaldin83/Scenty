@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global */
+
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+
+header *{
+    text-transform: capitalize;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: black;
+}
+
+header>div{
+    margin: 32px 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+header>div>a{
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+header>div>a>i{
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #4F46E5;
+    border-radius: 12px;
+}
+
+header>div>div{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    gap: 32px;
+}
+
+header>div>div>a{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header>div>button{
+    background-color: #0F172A;
+    padding: 10px;
+    color: white;
+    border-radius: 9999px;
+}
