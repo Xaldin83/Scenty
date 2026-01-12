@@ -37,6 +37,7 @@ header>div>a>i{
     padding: 5px;
     background-color: #4F46E5;
     border-radius: 12px;
+    margin-right: 10px;
 }
 
 header>div>div{
@@ -55,4 +56,14 @@ header>div>button{
     padding: 10px;
     color: white;
     border-radius: 9999px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: white;
+        color: #0F172A;
+        transition: all 0.3s ease-in-out;
+    }
 }
+
+
+/* Footer */
