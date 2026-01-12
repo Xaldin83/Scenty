@@ -51,7 +51,8 @@ header>div>div>a{
     font-weight: 600;
 }
 
-header>div>button{
+header>div>#Bouton{
+    font-size: 16px;
     background-color: #0F172A;
     padding: 10px;
     color: white;
