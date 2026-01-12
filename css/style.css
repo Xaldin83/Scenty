@@ -4,6 +4,7 @@
 
 *{
     margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 a{
@@ -14,7 +15,6 @@ a{
 
 header *{
     text-transform: capitalize;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: black;
 }
 
@@ -67,3 +67,40 @@ header>div>button{
 
 
 /* Footer */
+
+footer{
+    background-color: #0F172A;
+    padding: 64px 0;
+}
+
+footer *{
+    color: #94A3B8;
+    text-transform: capitalize;
+}
+
+footer>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+footer>div>a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer>div>a>i{
+    padding: 10px;
+    background-color: #4F46E5;
+    border-radius: 12px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+footer>div>div{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    gap: 32px;
+}
