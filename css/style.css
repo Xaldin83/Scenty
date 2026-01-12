@@ -148,6 +148,40 @@ main>#Section1>div>div>#PlayStore{
     }
 }
 
+main>#Section1>#Telephone{
+    position: relative;
+}
+
+main>#Section1>#Telephone>article{
+    position: absolute;
+    bottom: 158px;
+    right: -28px;
+    padding: 20px;
+    background-color: #F1F5F9;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 16px;
+    box-shadow: 10px 5px rgba(128, 128, 128, 0.15);
+}
+
+main>#Section1>#Telephone>article>h3{
+    color: #16A34A;
+    font-size: 16px;
+    background-color: #DCFCE7;
+    padding: 5px;
+    border-radius: 9999px;
+}
+
+
+main>#Section1>#Telephone>article>div>h4{
+    color: #0F172A;
+    font-size: 12px;
+}
+main>#Section1>#Telephone>article>div>p{
+    color: #64748B;
+    font-size: 10px;
+}
 
 /* Footer */
 
