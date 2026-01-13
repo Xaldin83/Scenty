@@ -76,6 +76,8 @@ main{
     margin: auto;
 }
 
+/* Section 1 */
+
 main>#Section1{
     
     display: grid;
@@ -181,6 +183,70 @@ main>#Section1>#Telephone>article>div>h4{
 main>#Section1>#Telephone>article>div>p{
     color: #64748B;
     font-size: 10px;
+}
+
+/* Section 2 */
+
+main>#Section2{
+    max-width: 1152px;
+}
+
+main>#Section2>h2{
+    color: #0F172A;
+    font-size: 36px;
+    text-align: center;
+}
+
+main>#Section2>p{
+    max-width: 633px;
+    color: #64748B;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+main>#Section2>div{
+    margin: 96px auto;
+    display: grid;
+    grid-template-columns: repeat(3,336px);
+    gap: 48px;
+}
+
+main>#Section2>div .fa-triangle-exclamation{
+    background-color: #FFEDD5;
+    color: #EA580C;
+    padding: 14px;
+    border-radius: 16px;
+
+    margin-bottom: 20px;
+}
+main>#Section2>div .fa-cloud{
+    background-color: #DCFCE7;
+    color: #2563EB;
+    padding: 14px;
+    border-radius: 16px;
+
+    margin-bottom: 20px;
+}
+main>#Section2>div .fa-book-open{
+    background-color: #F3E8FF;
+    color: #9333EA;
+    padding: 14px;
+    border-radius: 16px;
+
+    margin-bottom: 20px;
+}
+
+main>#Section2>div>article>h3{
+    color : #0F172A;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main>#Section2>div>article>p{
+    color: #475569;
+    font-size: 14px;
+    max-width: 270px;
 }
 
 /* Footer */
