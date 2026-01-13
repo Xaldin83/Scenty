@@ -43,13 +43,13 @@ header>div>a>i{
     margin-right: 10px;
 }
 
-header>div>div{
+header>div>nav{
     display: grid;
     grid-template-columns: max-content max-content max-content;
     gap: 32px;
 }
 
-header>div>div>a{
+header>div>nav>a{
     font-size: 16px;
     font-weight: 600;
 }
@@ -71,15 +71,12 @@ header>div>#Bouton{
 
 /* Main */
 
-main{
-    max-width: 1152px;
-    margin: auto;
-}
 
 /* Section 1 */
 
 main>#Section1{
-    
+    max-width: 1152px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -189,6 +186,7 @@ main>#Section1>#Telephone>article>div>p{
 
 main>#Section2{
     max-width: 1152px;
+    margin: auto;
 }
 
 main>#Section2>h2{
@@ -247,6 +245,67 @@ main>#Section2>div>article>p{
     color: #475569;
     font-size: 14px;
     max-width: 270px;
+}
+
+/* Section 3 */
+
+main>#Section3{
+    background-color: #F8FAFC;
+}
+
+main>#Section3>div{
+    max-width: 1152px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main>#Section3>div>article>ul{
+    padding: 20px;
+}
+
+main>#Section3>div>article>ul>li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+main>#Section3>div>article>h2{
+    color: #0F172A;
+    font-size: 36px;
+    margin-left: 20px;
+    max-width: 518px;
+}
+main>#Section3>div>article>p{
+    color: #475569;
+    font-size: 18px;
+    margin-left: 20px;
+    max-width: 518px;
+}
+
+main>#Section3>div>article>ul>li>article>p{
+    color: #64748B;
+    font-size: 16px;
+}
+
+main>#Section3>div>article>ul>li>p{
+    max-height: max-content;
+    max-width: 10px;
+    width: 1em; 
+    color: white;
+    background: linear-gradient(135deg, #4F46E5 0%, #9333EA 100%);
+    padding: 14px 20px;
+    border-radius: 9999px;
+    text-align: center;
+    align-content: center;
+    margin-right: 20px;
+}
+
+main>#Section3 #Image_Cercle{
+    max-width: 100%;
+    margin: auto;
+
 }
 
 /* Footer */
