@@ -485,3 +485,63 @@ footer>div>div>a:hover{
         justify-content: center;
     }
 }
+
+@media screen and (max-width:767px){
+        header>div{
+            grid-template-columns: 1fr 1fr;
+        }
+
+        header>div>nav{
+            display: none;
+        }
+
+        main>#Section1{
+            grid-template-columns: 300px;
+        }
+
+        main>#Section1>div>h2{
+            max-width: 300px;
+            font-size: 48px;
+        }
+
+        main>#Section1>div>div{
+            display: grid;
+            grid-template-columns: 300px;
+            text-align: center;
+        }
+
+        main>#Section1>#Telephone>article{
+            display: none;
+        }
+
+        main>#Section2>div{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 320px;
+        }
+
+        main>#Section2>div>article{
+            margin: 50px 0;
+        }
+
+        main>#Section3>div{
+            grid-template-columns: 1fr;
+        }
+
+        main>#Section4>div>div{
+            display: grid;
+            grid-template-columns: 320px;
+            gap: 150px;
+            gap: 040px;
+        }
+
+
+    main>#Section4>div>div>article{
+        max-width: 300px;
+    }
+
+        footer>div{
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+    }
