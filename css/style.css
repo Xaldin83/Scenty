@@ -156,6 +156,10 @@ main>#Section1>#Telephone{
     position: relative;
 }
 
+main>#Section1>#Telephone>img{
+    max-width: 100%;
+}
+
 main>#Section1>#Telephone>article{
     position: absolute;
     bottom: 158px;
@@ -210,6 +214,7 @@ main>#Section2>p{
 
 main>#Section2>div{
     margin: 96px auto;
+    max-width: 976px;
     display: grid;
     grid-template-columns: repeat(3,336px);
     gap: 48px;
@@ -443,3 +448,40 @@ footer>div>div{
 footer>div>div>a:hover{
         color: white;
     }
+
+
+/* Responsive */
+
+@media screen and (max-width:1024px){
+    main>#Section1>#Telephone>article {
+    bottom: 120px;
+    right: 10px;
+    }
+
+    main>#Section2>div{
+        gap: 0px;
+    }
+
+    main>#Section2>div>article{
+        max-width: max-content;
+    }
+
+    main>#Section2>div>article *{
+        max-width: 218px;
+        margin: 0 20px;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+    main>#Section4>div>div{
+        display: flex;
+        justify-content: center;
+        gap: 40px;}
+
+    main>#Section2>div{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
