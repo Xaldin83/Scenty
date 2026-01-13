@@ -350,6 +350,7 @@ main>#Section4>div>div{
 
 main>#Section4>div>div>article{
     border-radius: 30px;
+    background-color: #F8FAFC;
     &:hover{
         box-shadow:1px 5px 0 rgba(128, 128, 128, 0.25);
     }
