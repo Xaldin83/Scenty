@@ -251,6 +251,7 @@ main>#Section2>div>article>p{
 
 main>#Section3{
     background-color: #F8FAFC;
+    margin-bottom: 20px;
 }
 
 main>#Section3>div{
@@ -276,12 +277,15 @@ main>#Section3>div>article>h2{
     font-size: 36px;
     margin-left: 20px;
     max-width: 518px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 main>#Section3>div>article>p{
     color: #475569;
     font-size: 18px;
     margin-left: 20px;
     max-width: 518px;
+    margin-bottom: 30px;
 }
 
 main>#Section3>div>article>ul>li>article>p{
