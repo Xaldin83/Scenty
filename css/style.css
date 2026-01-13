@@ -312,6 +312,89 @@ main>#Section3 #Image_Cercle{
 
 }
 
+/* Section 4 */
+
+main>#Section4{
+    margin: 90px 0;
+}
+
+main>#Section4>div{
+    margin: auto;
+    max-width: 1152px;
+}
+
+main>#Section4>div>h2{
+    color: #0F172A;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+main>#Section4>div>div{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 80px;
+    justify-content: center;
+}
+
+main>#Section4>div>div>article{
+    border-radius: 30px;
+    &:hover{
+        box-shadow:1px 5px 0 rgba(128, 128, 128, 0.25);
+    }
+}
+
+main>#Section4>div>div>article>p{
+    color: #475569;
+    font-size: 16px;
+    max-width: 280px;
+}
+
+main>#Section4>div>div>article>div{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: max-content max-content ;
+    align-items: center;;
+}
+
+main>#Section4>div>div>article>div>article{
+    margin-left: 20px;
+}
+
+main>#Section4>div>div>article>div>article>h3{
+
+    color: #0F172A;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main>#Section4>div>div>article>div>article>p{
+    color: #64748B;
+    font-size: 12px;
+}
+
+main>#Section4>div>div>article>div>p{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 20px;
+    border-radius: 9999px;
+}
+
+main>#Section4>div>div>article>div>#JS{
+    color: #4338CA;
+    background-color: #C7D2FE;
+}
+main>#Section4>div>div>article>div>#MD{
+    color: #BE185D;
+    background-color: #FBCFE8;
+    padding: 16px 14px;
+}
+main>#Section4>div>div>article>div>#TL{
+    color: #15803D;
+    background-color: #BBF7D0;
+}
+
 /* Footer */
 
 footer{
